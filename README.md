@@ -1,6 +1,6 @@
 # Credit-Risk-Analysis
 
-## Overview of the loan prediction risk analysis:
+## OVERVIEW OF THE LOAN PREDICTION RISK ANALYSIS: 
 
 This project analyzes how all the factors in our loan_stats csv can help predict the credit risk status of credit card users. We used imbalanced-learn and scikit-learn libraries to design models and evaluate them using a resampling method. This includes: 
 
@@ -16,7 +16,7 @@ This project analyzes how all the factors in our loan_stats csv can help predict
 
 
 
-## Results:
+## RESULTS AND ANALYSIS:
 
 ## 1. Naive Random Oversampling: 
 
