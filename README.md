@@ -92,7 +92,7 @@ This project analyzes how all the factors in our loan_stats csv can help predict
 - Accuracy Score is reasonaly good, much better than the 4 algorithms above
 
 
-## Easy Ensemble AdaBoost Classifier:
+## 6. Easy Ensemble AdaBoost Classifier:
 
 
 ![6_EasyEnsembleClassifier](https://user-images.githubusercontent.com/104735724/185833723-a5b66e25-3b1f-46a9-96bd-3c4a6a93f921.png)
@@ -105,3 +105,22 @@ This project analyzes how all the factors in our loan_stats csv can help predict
 - Balanced Accuracy Score = 0.93 (93%)
 
 - Accuracy score is very good - the best amongst all 6 algorithms
+
+
+## SUMMARY: 
+
+- The Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier performed way better than the Oversampling, Undersampling and Combination algorithms. 
+
+- Cluster Centroids undersampling had the worst algorithm with a score of 54%, while Easy AdaBoost Classifier had the best with a score of 93%. 
+
+- The low-risk precision score stays the same across the board as 1.00. 
+
+- Easy Ensemble AdaBoost Classifier has the best high-risk precesion score at 0.09 and combined lowest in all Oversampling/Undersampling/Combination algorithms at 0.01.
+
+- The Oversampling/Undersampling/Combination algorithms also fare poorely than the Ensemble algorithms in terms of recall scores for both high-risk and low-risk loans.
+
+
+## Recommendation: 
+
+I would recommend ADABOOST because it has the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
+
